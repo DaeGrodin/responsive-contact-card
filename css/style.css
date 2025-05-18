@@ -1,0 +1,117 @@
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif; /* Default font if nothing else specified */
+  font-size: 18px; /* Default size if nothing else specified */
+  color: black; /* Default color if nothing else specified */
+}
+
+img {
+    border-radius: 0.75rem;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, serif;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.phone {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.company {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+button {
+  border: none;
+  border-radius: 0.75rem;
+  outline: 0;
+  display: inline block;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  background-color: white;
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+    /* Styles for screens >= 500px wide and tall */
+    .card {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 768px) {
+    /* Styles for screens >= 768px wide and tall */
+    .card {
+        max-width: 600px;
+        font-size: 22px;
+    }
+
+    .social-icons a {
+        font-size: 28px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
